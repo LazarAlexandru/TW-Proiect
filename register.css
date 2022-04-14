@@ -7,18 +7,18 @@ body
     background-color: rgb(87, 80, 80);
 }  
 
-.login{  
+
+.register{  
     width: 50%; 
     margin-top: 13%;  
     padding: 10%;  
     background: #6d2323;  
     border-radius: 3em;  
-    position:absolute;
+    position:relative;
     margin-left:15%;
     margin-bottom: 15%;
     
 }  
-
 
 a {color:inherit;}
 
@@ -28,25 +28,48 @@ label{
     text-align: center;
 }
 
-
+ul{
+    list-style-type: none;
+    align-content: center;
+    margin-right: 1em;
+}
 input{
     margin-top:1em;
 }
 #username{  
-    width: 80%;
+    width: 80%;  
     height: 2em;  
-    border: none;
-    border-radius: 1em;
+    border: none;  
+    border-radius: 1em; 
     margin-left: 4.5em;
+    margin-top: 1em;
+}  
+
+#email{  
+    width: 80%;  
+    height: 2em;  
+    border: none;  
+    border-radius: 1em; 
+    margin-left: 4.5em;
+    margin-top: 1em;
 }  
 #password{  
-    width: 80%;
+    width: 80%;  
     height: 2em;  
-    border: none; 
-    border-radius: 1em;
+    border: none;  
+    border-radius: 1em; 
     margin-left: 4.5em;
+    margin-top: 1em;
+}
+#password_confirm{  
+    width: 80%;  
+    height: 2em;  
+    border: none;  
+    border-radius: 1em; 
+    margin-left: 4.5em;
+    margin-top: 1em;
 }  
-#log{  
+#register{  
     width: 30%;  
     height: 2em;  
     border: none;  
@@ -60,19 +83,14 @@ input{
     margin-left: 4.5em;
 }
 
-.optiuni{
-    margin-top:3em;
-    display: block;
-    text-align:center;
-}
 @media only screen and (max-width: 600px){
     .login{
         align-content: center;
     }
-    #username{
+    #Username{
         margin-left: 0.75em;
     }
-    #password{
+    #Password{
         margin-left: 0.75em;
     }
     label{
