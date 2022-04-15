@@ -38,20 +38,38 @@ body{
     height: 50%;
     background-color: rgb(204, 204, 255);
     position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+
     margin: auto;
+    margin-right:45%;
     border-radius: 25px;
 }
+.formular{
+	width: auto;
+    padding: 10%;
+    background-color: rgb(204, 204, 255);
+    margin-left:60%;
+    border-radius: 25px;
 
+
+}
+
+.formular div{
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.centrare{
+    display: flex;
+    justify-content: space-around;
+    margin-top:-10%;
+}
 .buton_curse{
 	width: 150px;
     height: 10%;
     background-color: rgb(204, 204, 255);
-    margin: 5% 10% 10% 45%;
+    margin: 5% 10% 10% 23%;
     border-radius: 25px;
+    
     font-size: 30px;
     font-family: sans-serif;
     text-align: center;
@@ -81,5 +99,3 @@ body{
     border-style: solid;
     font-family: sans-serif;
 }
-
-
