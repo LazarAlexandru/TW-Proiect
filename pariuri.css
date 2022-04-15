@@ -49,14 +49,13 @@ body{
     background-color: rgb(204, 204, 255);
     margin-left:60%;
     border-radius: 25px;
-
+    padding-bottom: 6.5%;
 
 }
 
 .formular div{
     margin-bottom: 20px;
     text-align: center;
-    
 }
 .centrare{
     display: flex;
