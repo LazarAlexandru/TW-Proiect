@@ -1,90 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pariaza</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
     <link rel="stylesheet" type="text/css" href="pariuri.css">
 </head>
 <body>
     <header class="header">
-        <div >	<a href="index.html">CAT RACE</a>		</div>
-        <div>	<a href="pariuri.html">PARIURI</a>	</div>
-        <div>	<a href="login.html">SIGN IN</a>
-                <a href="register.html">SIGN UP</a> 	
+            <div>   <a href="index.html">CAT RACE</a></div>
+            <div>   <a href="pariuri.html">BETS</a></div>
+            <div>   <a href="login.html">SIGN IN</a>
+                    <a href="register.html">SIGN UP</a>     
+            </div>
+    </header>
+    <div class="container">
+        <div class="select-race">
+            <div class="select-race2">
+                <b>Select race</b>
+                <select>
+                <option value="12:00">12:00</option>
+                <option value="14:00">14:00</option>
+                <option value="16:00">16:00</option>
+                <option value="19:00">19:00</option>
+                </select>
+            </div>
         </div>
-</header>
-<div class="buton_curse" >CURSE</div>
-<div class="centrare">
-<div class="curse">
-    <ul class="lista_curse">
-        <li>
-            <ul class="cursa"> 
-                <li>Data</li>
-                <li>Ora</li>
-                <li>
-                    <ul>
-                        <li class="pisici">pisica1</li>
-                        <li class="pisici">pisica2</li>
-                        <li class="pisici">pisica3</li>
-                    </ul>
-                </li>
-            </ul>
-            <ul class="cursa"> 
-                <li>Data</li>
-                <li>Ora</li>
-                <li>
-                    <ul>
-                        <li class="pisici">pisica1</li>
-                        <li class="pisici">pisica2</li>
-                        <li class="pisici">pisica3</li>
-                    </ul>
-                </li>
-            </ul>
-            <ul class="cursa"> 
-                <li>Data</li>
-                <li>Ora</li>
-                <li>
-                    <ul>
-                        <li class="pisici">pisica1</li>
-                        <li class="pisici">pisica2</li>
-                        <li class="pisici">pisica3</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-    </ul>
-</div>
-<div class="formular">
-    <form>
-        <div>
-        <label>Curse:</label>
-        <select>
-            <option value="" disabled selected hidden>Selecteaza o cursa</option>
-            <option value="Cursa 1">Cursa 1</option>
-            <option value="Cursa 2">Cursa 2</option>
-            <option value="Cursa 3">Cursa 3</option>
-        </select>
+        <div class="race">
+            <div class="race2">
+                <ul>
+                    <li><a>Luna</a></li>
+                    <li><a>Milo</a></li>
+                    <li><a>Oliver</a></li>
+                    <li><a>Leo</a></li>
+                </ul>
+            </div>
         </div>
-        <div>
-        <label>Pisica:</label>
-        <select>
-            <option value="" disabled selected hidden>Selecteaza o pisica</option>
-            <option value="Pisica 1">Pisica 1</option>
-            <option value="Pisica 2">Pisica 2</option>
-            <option value="Pisica 3">Pisica 3</option>
-        </select>
+        <div class="select-amount">
+            <div class="select-amount2">
+                <input type="number" value=1 min="1">
+                <input type="submit" value="Place bet">
+            </div>
         </div>
-        <div>
-        <label>Suma:</label>
-        <input type="number" min="1" value="Suma">
-        </div>
-        <div>
-        <input type="submit" value="submit">
-        </div>
-    </form>
-</div>
-</div>
+    </div>
 </body>
 </html>

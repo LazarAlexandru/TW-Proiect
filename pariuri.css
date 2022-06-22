@@ -3,7 +3,7 @@ li{
 }
 
 body{
-	background-color: rgb(87, 80, 80);
+    background-color: #dfe6ed;
 }
 
 .header{
@@ -15,86 +15,73 @@ body{
 }
 
 .header a{
-	font-size: 30px;
-	text-align: center;
-	padding: 20px;
-	color: rgb(242, 242, 242);
-	text-decoration: none;
-	font-family: sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    padding: 20px;
+    color: rgb(242, 242, 242);
+    text-decoration: none;
+    font-family: sans-serif;
 }
 
 .header div{
-	padding: 20px;
+    padding: 20px;
 }
 
 .header a:hover{
-	background-color: rgb(96, 96, 96);
-	color: rgb(0, 0, 0);
-	border-radius: 25px;
+    background-color: rgb(96, 96, 96);
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
 }
 
-.curse{
-	width: 50%;
-    height: 50%;
-    background-color: rgb(204, 204, 255);
+.container{
+    width: 65%;
+    height: 35%;
+    background-color: #dfe6ed;
     position: absolute;
-
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     margin: auto;
-    margin-right:45%;
-    border-radius: 25px;
-}
-.formular{
-	width: auto;
-    padding: 10%;
-    background-color: rgb(204, 204, 255);
-    margin-left:60%;
-    border-radius: 25px;
-    padding-bottom: 6.5%;
-
-}
-
-.formular div{
-    margin-bottom: 20px;
-    text-align: center;
-}
-.centrare{
+    font-size: 125%;
+    background-color: #ffffff;
+    border-style: groove;
+    border-color: #c3cfd9;
     display: flex;
-    justify-content: space-around;
-    margin-top:-10%;
-}
-.buton_curse{
-	width: 150px;
-    height: 10%;
-    background-color: rgb(204, 204, 255);
-    margin: 5% 10% 10% 23%;
-    border-radius: 25px;
-    
-    font-size: 30px;
-    font-family: sans-serif;
-    text-align: center;
+    flex-direction: row;
 }
 
-.lista_curse{
-    border-color: rgb(255, 102, 178);
-    border-style: solid;
-    border-radius: 10%;
-    margin: 5%;
+.select-race{
+    width: 30%;
 }
 
-.cursa{
-    border-radius: 10%;
-    margin: 5%;
+.select-race2{
+    position: relative;
+    top: 45%;
+    left: 30%;
 }
 
-.cursa li{
+.race{
+    width: 40%;
+}
+
+.race2{
+    position: relative;
+    top: 40%;
+    left: 20%;
+}
+
+.race2 ul li{
     display: inline;
-    font-family: sans-serif;
+    padding: 10px;
 }
 
-.pisici{
-    border-radius: 10%;
-    border-color: rgb(76, 0, 153);
-    margin: 5%;
-    border-style: solid;
-    font-family: sans-serif;
+.select-amount{
+    width: 30%;
+}
+
+.select-amount2{
+    position: relative;
+    top: 45%;
+    left: 30%;
 }

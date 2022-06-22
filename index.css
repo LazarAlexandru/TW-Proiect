@@ -3,7 +3,7 @@ li{
 }
 
 body{
-	background-color: rgb(87, 80, 80);
+	background-color: #dfe6ed;
 }
 
 .header{
@@ -15,7 +15,7 @@ body{
 }
 
 .header a{
-	font-size: 30px;
+	font-size: 2vw;
 	text-align: center;
 	padding: 20px;
 	color: rgb(242, 242, 242);
@@ -35,51 +35,35 @@ body{
 
 .curse{
 	width: 50%;
-    height: 50%;
-    background-color: rgb(204, 204, 255);
+    height: 35%;
+    background-color: #ffffff;
     position: absolute;
     top:0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
-    border-radius: 25px;
+    border-style: groove;
+    border-color: #c3cfd9;
 }
 
-.buton_curse{
-	width: 150px;
-    height: 10%;
-    background-color: rgb(204, 204, 255);
-    margin: 5% 10% 10% 45%;
-    border-radius: 25px;
-    font-size: 30px;
-    font-family: sans-serif;
-    text-align: center;
+.todays-races{
+    padding: 1%;
+    margin-left: 38%;
+    font-size: 2vw; /* vw=% of viewport width*/
 }
 
-.lista_curse{
-    border-color: rgb(255, 102, 178);
-    border-style: solid;
-    border-radius: 10%;
-    margin: 5%;
+.lista{
+    width: 80%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.cursa{
-    border-radius: 10%;
-    margin: 5%;
+.lista li{
+    font-size: 1.2vw;
 }
 
-.cursa li{
-    display: inline;
-    font-family: sans-serif;
+.hour{
+    color: red;
 }
-
-.pisici{
-    border-radius: 10%;
-    border-color: rgb(76, 0, 153);
-    margin: 5%;
-    border-style: solid;
-    font-family: sans-serif;
-}
-
-

@@ -1,47 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="register.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="register.css">
 </head>
 <body>
     <header class="header">
-            <div >  <a href="index.html">CAT RACE</a>       </div>
-            <div>   <a href="pariuri.html">PARIURI</a>  </div>
+            <div>   <a href="index.html">CAT RACE</a></div>
+            <div>   <a href="pariuri.html">BETS</a></div>
             <div>   <a href="login.html">SIGN IN</a>
                     <a href="register.html">SIGN UP</a>     
             </div>
     </header>
-    <div class="register">    
-        <form>    
-            <label>
-                <b>Numele complet</b>    
-            </label>    
-            <input type="text" name="fname" id ="username"placeholder="Introduceti numele complet" required>    
-            <br><br> 
-            <label>
-                <b>Adresa de email</b>    
-            </label>    
-            <input type="email" name="email" id ="email"placeholder="Introduceti adresa de email" required>    
-            <br><br>    
-            <label>
-                <b>Parola</b>    
-            </label>    
-            <input type="Password" name="password" id="password" placeholder="Introduceti parola" required>
-            <br><br>
-            <label>
-                <b>Confirmati parola</b>    
-            </label>    
-            <input type="Password" name="password" id="password_confirm" placeholder="Confirmati parola" required>    
-            <br><br>
-            <input type="checkbox" id="check" required>    
-            <span id="agree">Sunt de acord cu termenii si conditiile</span>  
-            <br><br> 
-            <button type="submit" name="log" id="register">Inregistrare</button>    
-        </form>     
-    </div>    
+    <form class="formular">
+        <div class="container">
+            <label for="username"><b>Username</b></label>
+            <input type="text" name="username" id="username" required>
+
+            <label><b>Email</b></label>
+            <input type="text" name="email" id="email" required>
+
+            <label><b>Password</b></label>
+            <input type="password" name="password" id="password" required>
+
+            <label><b>Confirm password</b></label>
+            <input type="password" name="confirm-password" id="confirm-password" required>            
+
+            <div class="chekbox">
+                <input type="checkbox" id="checkbox" required>
+                <label for="checkbox">I agree to the Terms and Conditions</label>
+            </div>
+
+            <button type="submit" class="register-btn">Register</button>
+        </div>
+    </form>
 </body>
 </html>

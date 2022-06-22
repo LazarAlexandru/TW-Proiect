@@ -1,92 +1,9 @@
-body  
-{  
-
-    font-family: 'Roboto', sans-serif;
-    overflow: visible;
-
-    background-color: rgb(87, 80, 80);
-}  
-
-.login{  
-    width: 50%; 
-    margin-top: 3%;  
-    padding: 10%;  
-    background: #255f6c;;  
-    border-radius: 3em;  
-    position:absolute;
-    margin-left:15%;
-    margin-bottom: 15%;
-    
-}  
-
-
-a {color:inherit;}
-
-
-label{
-    display: block;
-    text-align: center;
+li{
+    list-style-type: none;
 }
 
-
-input{
-    margin-top:1em;
-}
-#username{  
-    width: 80%;
-    height: 2em;  
-    border: none;
-    border-radius: 1em;
-    margin-left: 4.5em;
-}  
-#password{  
-    width: 80%;
-    height: 2em;  
-    border: none; 
-    border-radius: 1em;
-    margin-left: 4.5em;
-}  
-#log{  
-    width: 30%;  
-    height: 2em;  
-    border: none;  
-    border-radius: 1em; 
-    margin-left: 35%;
-    margin-top: 3em;
-    cursor:pointer;
-}  
-
-#check{
-    margin-left: 4.5em;
-}
-
-.optiuni{
-    margin-top:3em;
-    display: block;
-    text-align:center;
-}
-@media only screen and (max-width: 600px){
-    .login{
-        align-content: center;
-    }
-    #username{
-        margin-left: 0.75em;
-    }
-    #password{
-        margin-left: 0.75em;
-    }
-    label{
-        margin-left: 0.75em;
-    }
-    #check{
-        margin-left: 0;
-    }
-    #log{
-        margin-left: 0.75em;
-    }
-    body::after{
-        bottom: -50em;
-    }
+body{
+    background-color: #dfe6ed;
 }
 
 .header{
@@ -98,7 +15,7 @@ input{
 }
 
 .header a{
-    font-size: 30px;
+    font-size: 2vw;
     text-align: center;
     padding: 20px;
     color: rgb(242, 242, 242);
@@ -114,4 +31,36 @@ input{
     background-color: rgb(96, 96, 96);
     color: rgb(0, 0, 0);
     border-radius: 25px;
+}
+
+.formular{
+    width: 15%;
+    height: 25%;
+    background-color: #dfe6ed;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 125%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container b{
+    color: #4b5c6b;
+    display: block;
+    text-align: center;
+}
+
+.login-btn{
+    background-color: #d3455b;
+    width: 30%;
+    display: block;
+    align-self: center;
+    color: white;
 }
